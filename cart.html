@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaachiE.Deals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="Stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><i class="fa-solid fa-basket-shopping">SaachiE.Deals</i></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="#"><i class="fa-solid fa-search" id="search-btn"></i></a></li>
+                <li><a class="active" href="Cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li><a href="wishlist.html"><i class="fa-solid fa-heart"></i></i></a></li>
+                <li><a href="login.html"><i class="fa-solid fa-user-plus"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-circle-xmark"></i></i></a>
+            </ul>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box"><i class="fa-solid fa-search"></i></label>
+        </form>
+        <div id="mobile">
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+
+
+    </section>
+
+    <section class="cart-header">
+        <h2>Shopping Cart</h2>
+
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/product-1.jpg" alt=""></td>
+                    <td>Puma/Solid Maroon T-shirt</td>
+                    <td>Rs.1999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.1999/-</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products1.jpg" alt=""></td>
+                    <td>Adidas/White round neck T-shirt</td>
+                    <td>Rs.1999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.1999/-</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-solid fa-circle-xmark"></i></a></td>
+                    <td><img src="img/jeans-denim1.jpg" alt=""></td>
+                    <td>Denim/Blue jeans</td>
+                    <td>Rs.6999/-</td>
+                    <td><input type="number" value="1"></td>
+                    <td>Rs.6999/-</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon">
+                <a href="#"><button class="normal">Apply</button></a>
+            </div>
+        </div>
+        <div id="Subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>Rs.10,997/-</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs.10,997/-</strong></td>
+                </tr>
+            </table>
+            <a href="#"><button class="normal">Proceed To Checkout</button></a>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <a href="index.html"><i class="fa-solid fa-basket-shopping">SaachiE.Deals</i></a>
+            <h4>Contact Us</h4>
+            <p><strong>Address:</strong>Sector-05, Pratap Nagar, Jaipur-302033 RJ.</p>
+            <p><strong>Phone:</strong>+919079762817</p>
+            <p><strong>Hours:</strong>10:00 to 18:00, Mon-Sat.</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About Us</h4>
+            <a href="About.html">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google play</p>
+            <div class="row">
+                <img src="img/app-store.png" alt="">
+                <img src="img/google store.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/payment2.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>&copy; 2022, SaachiE.Deals - All right Reserved</p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
